@@ -1,0 +1,6 @@
+C:\Users\Nikita\source\repos\ConsoleApp2\ChatClient\bin\Release\ChatClient.exe.config
+C:\Users\Nikita\source\repos\ConsoleApp2\ChatClient\bin\Release\ChatClient.exe
+C:\Users\Nikita\source\repos\ConsoleApp2\ChatClient\bin\Release\ChatClient.pdb
+C:\Users\Nikita\source\repos\ConsoleApp2\ChatClient\obj\Release\ChatClient.csproj.CoreCompileInputs.cache
+C:\Users\Nikita\source\repos\ConsoleApp2\ChatClient\obj\Release\ChatClient.exe
+C:\Users\Nikita\source\repos\ConsoleApp2\ChatClient\obj\Release\ChatClient.pdb

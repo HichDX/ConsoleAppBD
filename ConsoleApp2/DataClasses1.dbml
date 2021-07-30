@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="forumDb" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=NIKITA-ПК;Initial Catalog=forumDb;Integrated Security=True" SettingsObjectName="ConsoleApp2.Properties.Settings" SettingsPropertyName="forumDbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.accounts" Member="accounts">
+    <Type Name="accounts">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="city" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="fk_accounts_users" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="users_accounts" Member="users" ThisKey="fk_accounts_users" OtherKey="id" Type="users" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.posts" Member="posts">
+    <Type Name="posts">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="post_title" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="post_text" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="fk_posts_users" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="users_posts" Member="users" ThisKey="fk_posts_users" OtherKey="id" Type="users" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.users" Member="users">
+    <Type Name="users">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nickname" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Association Name="users_accounts" Member="accounts" ThisKey="id" OtherKey="fk_accounts_users" Type="accounts" />
+      <Association Name="users_posts" Member="posts" ThisKey="id" OtherKey="fk_posts_users" Type="posts" />
+    </Type>
+  </Table>
+</Database>

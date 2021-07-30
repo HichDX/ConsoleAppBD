@@ -1,0 +1,14 @@
+C:\Users\Nikita\source\repos\ConsoleApp2\ChatServer\bin\Debug\ChatServer.exe.config
+C:\Users\Nikita\source\repos\ConsoleApp2\ChatServer\bin\Debug\ChatServer.exe
+C:\Users\Nikita\source\repos\ConsoleApp2\ChatServer\bin\Debug\ChatServer.pdb
+C:\Users\Nikita\source\repos\ConsoleApp2\ChatServer\obj\Debug\ChatServer.csproj.AssemblyReference.cache
+C:\Users\Nikita\source\repos\ConsoleApp2\ChatServer\obj\Debug\ChatServer.csproj.CoreCompileInputs.cache
+C:\Users\Nikita\source\repos\ConsoleApp2\ChatServer\obj\Debug\ChatServer.exe
+C:\Users\Nikita\source\repos\ConsoleApp2\ChatServer\obj\Debug\ChatServer.pdb
+C:\Users\Nikita\source\repos\ConsoleApp\ChatServer\bin\Debug\ChatServer.exe.config
+C:\Users\Nikita\source\repos\ConsoleApp\ChatServer\bin\Debug\ChatServer.exe
+C:\Users\Nikita\source\repos\ConsoleApp\ChatServer\bin\Debug\ChatServer.pdb
+C:\Users\Nikita\source\repos\ConsoleApp\ChatServer\obj\Debug\ChatServer.csproj.AssemblyReference.cache
+C:\Users\Nikita\source\repos\ConsoleApp\ChatServer\obj\Debug\ChatServer.csproj.CoreCompileInputs.cache
+C:\Users\Nikita\source\repos\ConsoleApp\ChatServer\obj\Debug\ChatServer.exe
+C:\Users\Nikita\source\repos\ConsoleApp\ChatServer\obj\Debug\ChatServer.pdb
